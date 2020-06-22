@@ -17,7 +17,7 @@ We'll be creating the following models:
 
 **Migrations**
 
-- Restaurant
+<!-- - Restaurant
 	- name
 	- has many dishes
 - Dish
@@ -27,15 +27,15 @@ We'll be creating the following models:
 	- name
 	- has many dishes
 
-*Do you need any join tables? What data should they have?*
+*Do you need any join tables? What data should they have?* -->
 
 **Validations**
 
-- Restaurants need a name
+<!-- - Restaurants need a name
 - Dishes need a name and a restaurant
 - Tags need a name 3 characters or longer
 - Tag names can only be one word or two words, not more
-- Dishes can only have one of any particular tag
+- Dishes can only have one of any particular tag -->
 
 **Seeds**
 
