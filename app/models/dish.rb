@@ -1,5 +1,5 @@
 class Dish < ActiveRecord::Base 
   belongs_to :restaurant
-  has_one :tag, through: :dish_tags
-  attr_accessor :name, :restaurant
+  has_many :dish_tags
+  has_many :tags, through: :dish_tags
 end 

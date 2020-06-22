@@ -11,7 +11,7 @@ end
     
 Restaurant.all.each do |restaurant|
     10.times do 
-    Dish.create(name: Faker::Food.name, restaurant: restaurant)
+    Dish.create(name: Faker::Food.dish, restaurant_id: restaurant.id)
     end
 end
 
